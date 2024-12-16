@@ -14,8 +14,6 @@ function App() {
 
   const requestIndex = async (e) => {
     const emaiIndex = await Api.index();
-    // setEmail(emaiIndex);
-    // setContent(emaiIndex);
   }
 
   const submit = async () => {
